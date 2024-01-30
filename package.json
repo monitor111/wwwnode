@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node index.js"
+  },
   "author": "monitor98",
   "license": "ISC",
   "dependencies": {
@@ -12,3 +14,4 @@
     "express": "^4.18.2"
   }
 }
+

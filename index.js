@@ -33,7 +33,7 @@ app.post('/update', (req, res) => {
     res.render('update', { name: updatedName, id: updatedId });
 });
 
-let port = 3008;
+let port = 3009;
 app.listen(port, () => {
     console.log(`Сервер запущен: http://localhost:${port}`);
 });
